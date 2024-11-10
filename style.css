@@ -1,0 +1,196 @@
+@font-face {
+  font-family:'hanken'; ;
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf );
+}
+
+body{
+  font-family: 'hanken';
+  font-size: 18px;
+}
+.container-grandparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: white;
+}
+
+.container-parent {
+  border-radius: 20px;
+  background-color:   hsl(0, 0%, 100%);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  width: 80%;
+  max-width: 700px;
+  height: 60%;
+  
+}
+
+
+
+
+.box-left {
+ 
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+  padding-bottom: 10px;
+  background-image: linear-gradient(to bottom right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  
+  
+  
+  
+  
+}
+
+
+.title {
+  color: hsl(224, 38%, 36%);
+  font-size: 1.5rem;
+  margin-top: 30px;
+
+}
+
+.score {
+  color: hsl(0, 0%, 100%);
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 10px;
+
+}
+
+.score-out-of {
+  color: hsl(241, 100%, 89%);
+  font-size: 1rem;
+  margin-top: 0px;
+}
+
+.circle{
+  margin-top: 25px;
+  width: 175px; /* Adjust based on design */
+  height:175px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 700;
+  background-image: linear-gradient(to bottom right, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  
+}
+
+.great{
+  color: hsl(0, 0%, 100%);
+  margin-top: 25px;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.great-text{
+  color: hsl(241, 100%, 89%);
+  margin-top: 20px;
+  margin-bottom: 10px ;
+  font-weight: 500;
+  text-align: center;
+  padding: 0px 50px;
+
+}
+
+img{
+  margin-top: 25px;
+  width: 20px;
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+
+.box-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  width: 50%;
+  
+}
+
+.box-style{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  height: 35px;
+  width: 300px;
+  
+  
+  margin-bottom: 10px;
+
+}
+
+.Reaction{
+  background-color: hsla(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+}
+
+.Memory{
+  background-color: hsla(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+}
+
+.Verbal{
+  background-color: hsla(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+}
+
+.Visual{
+  background-color: hsla(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+}
+
+.btn{
+  margin-top: 20px;
+  border-radius: 35px;
+  border: none;
+  background-color: hsl(224, 38%, 36%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px;
+  width: 300px;
+  height: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.constyle{ 
+  display: flex;
+  margin-left: 0px;
+}
+
+span{
+  color: hsla(224, 27%, 35%, 0.555);
+  
+}
+
+b{
+  color: #222222;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to bottom right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.box-style:hover {
+  opacity: calc(0.8);
+  cursor: pointer; 
+}
+
+
+
